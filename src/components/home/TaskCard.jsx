@@ -80,12 +80,12 @@ const TaskCard = ({ task, setRefetchTodo }) => {
       </div>
 
       <div className="flex items-center gap-x-5">
-        <button className="text-md font-semibold text-indigo-800 py-2 px-4 bg-yellow-200 rounded-lg">
+        <button className="text-md font-semibold text-lime-800 py-2 px-4 bg-yellow-200 rounded-lg">
           {task.status}
         </button>
 
         <div className="flex items-center gap-x-2">
-          <IoMdTimer className="text-xl text-indigo-800" />
+          <IoMdTimer className="text-xl text-lime-800" />
           <button className="text-md font-semibold text-blue-800">
             {task.timeStamp}
           </button>
