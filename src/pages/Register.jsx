@@ -228,7 +228,7 @@ const Register = () => {
 
           <button
             type="submit"
-            className="w-full px-4 py-2 text-lg font-medium text-white bg-lime-700 rounded-md hover:bg-lime-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="w-full px-4 py-2 text-lg font-medium text-white bg-lime-500 rounded-md hover:bg-lime-700 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             Sign Up
           </button>
@@ -236,7 +236,7 @@ const Register = () => {
 
         <button
           onClick={() => handleGoogleSignIn()}
-          className="w-full flex justify-center items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-red-300 rounded-md hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full flex justify-center items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-yellow-400 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
         >
           <FaGoogle />
           <p className="text-lg">Login with Google</p>
