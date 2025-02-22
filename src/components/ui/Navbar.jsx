@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-lime-300 shadow-sm px-8 text-yellow-100">
+    <div className="navbar bg-lime-400 shadow-sm px-8 text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
           </ul> */}
         </div>
-        <a className="btn btn-ghost text-xl">TaskZen</a>
+        <a className="btn btn-ghost text-white text-3xl">TaskZen</a>
       </div>
       {/* <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -90,7 +90,7 @@ const Navbar = () => {
       </div> */}
       <div className="navbar-end flex gap-x-4">
         <button
-          className="px-4 py-2 bg-yellow-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400 flex gap-x-2 items-center"
+          className="px-4 py-2 bg-blue-500 rounded-xl text-lg text-white font-semibold cursor-pointer hover:bg-blue-900 flex gap-x-2 items-center"
           onClick={() => document.getElementById("AddTaskModal").showModal()}
         >
           <p>Add Task</p>
@@ -99,7 +99,7 @@ const Navbar = () => {
         {user ? (
           <button
             onClick={() => handleLogout()}
-            className="px-4 py-2 bg-yellow-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400"
+            className="px-4 py-2 bg-blue-500 rounded-xl text-lg text-white font-semibold cursor-pointer hover:bg-blue-900"
           >
             Logout
           </button>
