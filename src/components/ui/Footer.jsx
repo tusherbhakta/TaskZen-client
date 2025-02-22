@@ -2,7 +2,7 @@ import { FaFacebook, FaLinkedin, FaSquareXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="bg-lime-300 text-yellow-100 p-10 flex flex-col items-center">
+    <div className="bg-lime-500 text-white p-10 flex flex-col items-center">
       <footer className="footer flex lg:flex-row flex-col items-start justify-center gap-x-72">
         <aside className="flex sm:flex-row flex-col sm:gap-x-4 sm:items-center">
           {/* <img className="w-32 h-32" src={logo} alt="" /> */}
@@ -12,13 +12,13 @@ function Footer() {
           </div>
         </aside>
         <nav>
-          <h6 className="footer-title">Contact Information</h6>
+          <h6 className="footer-title text-white">Contact Information</h6>
           <a className="link link-hover">tusheranta@gmail.com</a>
           <a className="link link-hover">+880 1746054796</a>
           <a className="link link-hover">Dhaka, Bangladesh</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Get in touch</h6>
+          <h6 className="footer-title text-white">Get in touch</h6>
           <a
             href="https://www.linkedin.com/in/tusherbhakta/"
             target="_blank"
@@ -53,7 +53,7 @@ function Footer() {
       </footer>
       <div className="mt-4 ">
         <hr className="w-[90vw] h-2" />
-        <p className="text-center text-yellow-100">
+        <p className="text-center text-white">
           &copy; 2025 TaskZen. All rights reserved.
         </p>
       </div>
